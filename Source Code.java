@@ -2,7 +2,7 @@
  A class to measure time elapsed.
 */
 
-public class Stopwatch
+public class 
 {
     private long startTime;
     private long stopTime;
@@ -24,7 +24,7 @@ public class Stopwatch
 
 	/**
 	elapsed time in seconds.
-	@return the time recorded on the stopwatch in seconds
+	@return the time recorded on the  in seconds
 	*/
 	public double time()
 	{	return (stopTime - startTime) / NANOS_PER_SEC;	}
@@ -35,7 +35,7 @@ public class Stopwatch
 
 	/**
 	elapsed time in nanoseconds.
-	@return the time recorded on the stopwatch in nanoseconds
+	@return the time recorded on the  in nanoseconds
 	*/
 	public long timeInNanoseconds()
 	{	return (stopTime - startTime);	}
